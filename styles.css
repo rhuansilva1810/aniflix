@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 185, 81);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.chamada {
+    background: rgb(255, 153, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: "DynaPuff", system-ui;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 2px 5px black;
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 3px 2px 5px black;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.categoria h2 {
+    color: rgb(0, 0, 0);
+}
